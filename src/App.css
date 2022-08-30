@@ -1,0 +1,292 @@
+.header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: 700px;
+  background-color: red;
+}
+
+.titulo {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 240px;
+  color: white;
+
+}
+
+.whats {
+
+  width: 200px;
+  height: 30px;
+  background-color: darkred;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.fundo {
+
+  width: 100%;
+  height: 700px;
+
+}
+
+.whatszapp {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: -130px;
+  margin-top: -2px;
+
+
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: auto;
+  height: 600px;
+
+}
+
+.bio {
+
+  width: 800px;
+  height: 400px;
+  margin-left: 50px;
+  color: darkred;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.psicologa {
+
+  margin-left: 150px;
+  box-shadow: 10px 1px 5px 5px Silver;
+}
+
+.atuacao {
+
+  text-align: center;
+  width: auto;
+  height: 600px;
+}
+
+.fotoatuacao {
+
+  width: 100%;
+  height: 700px;
+  background-color: brown;
+
+}
+
+.area {
+
+
+  position: absolute;
+  margin-top: -450px;
+  color: white;
+  margin-left: 410px;
+
+}
+
+.tituloatuacao {
+
+  position: absolute;
+  margin-top: -650px;
+  margin-left: 450px;
+  color: white;
+
+
+
+}
+
+.individual {
+
+  position: absolute;
+  border: 1px solid white;
+  background-color: pink;
+  border-radius: 20px;
+  width: 400px;
+  margin-left: -330px;
+
+
+}
+
+.casais {
+
+
+  border: 1px solid white;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  width: 400px;
+  margin-left: 100px;
+
+}
+
+.grupo {
+
+  border: 1px solid white;
+  background-color: firebrick;
+  border-radius: 20px;
+  width: 400px;
+  margin-left: 530px;
+  margin-top: -215px;
+
+}
+
+.footer {
+
+
+  width: auto;
+  height: 800px;
+
+
+}
+
+.titulo3 {
+
+  text-align: center;
+  width: 1300px;
+  margin-top: 200px;
+  margin-left: 60px;
+  color: darkred;
+
+}
+
+.endereco {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 250px;
+  font-size: 20px;
+  color: darkred;
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  .header {
+
+    width: auto;
+    height: 400px;
+    margin: 10px;
+  }
+
+  .titulo {
+
+    font-size: 10px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+  }
+
+  .apresentacao {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: auto;
+
+
+  }
+
+  .bio {
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    margin-right: 50px;
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .psicologa {
+
+
+    margin-right: 150px;
+    width: 200px;
+
+
+  }
+
+  .fotoatuacao {
+
+    width: 100%;
+    height: 900px;
+    margin-top: 250px;
+
+  }
+
+  .individual {
+
+    position: absolute;
+    margin-top: -420px;
+    margin-left: -380px;
+    width: 300px;
+  }
+
+  .casais {
+
+    position: absolute;
+    margin-top: -140px;
+    margin-left: -380px;
+    width: 300px;
+
+  }
+
+  .grupo {
+
+    position: absolute;
+    margin-top: 140px;
+    margin-left: -380px;
+    width: 300px;
+
+  }
+
+  .footer {
+
+    
+    height: 500px;
+
+
+  }
+
+  .titulo3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-top: 550px;
+    margin-left: 80px;
+
+  }
+  .endereco {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: darkred;
+  
+  
+  }
+
+
+
+
+
+
+}
